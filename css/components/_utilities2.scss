@@ -1,0 +1,15 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "shadow": (
+      property: box-shadow,
+      class: shadow,
+      responsive: true,
+      values: (
+        null: var(--#{$prefix}box-shadow),
+        sm: var(--#{$prefix}box-shadow-sm),
+        none: none
+      )
+    )
+  )
+);

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <style>
+        .noto-sans-regular {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.8);
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 24px;
+        }
+
+        .noto-sans-bold {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 48px;
+            color: #ffffff;
+            letter-spacing: 2.8px;
+            text-align: center;
+            line-height: 71px;
+        }
+
+        .text1 {
+            font-family: GenJyuuGothicX-Bold;
+            font-size: 24px;
+            color: #333333;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 36px;
+        }
+
+        .text2 {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.8);
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 21px;
+        }
+
+        .text3 {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 20px;
+            color: #4FD1F5;
+            letter-spacing: 1.17px;
+            text-align: center;
+            line-height: 29px;
+        }
+
+        .text4 {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 16px;
+            color: #333333;
+            text-align: center;
+            line-height: 24px;
+        }
+
+        .text5 {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 32px;
+            color: #333333;
+            line-height: 47px;
+        }
+
+        .text6 {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 16px;
+            color: #FFFFFF;
+            text-align: center;
+            line-height: 24px;
+        }
+
+        .text7 {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 24px;
+            color: #333333;
+            line-height: 36px;
+        }
+
+        .text8 {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 16px;
+            color: #333333;
+            line-height: 24px;
+        }
+
+        .text9 {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 20px;
+            color: #000000;
+            text-align: center;
+            line-height: 29px;
+        }
+
+
+
+        .text12 {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 24px;
+            color: #333333;
+            text-align: center;
+            line-height: 36px;
+        }
+
+        .text13 {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 14px;
+            color: #FFFFFF;
+            line-height: 32px;
+            text-align: center;
+        }
+
+        .help-section {
+            background: #F8F9FA;
+            /* 灰底滿版 */
+        }
+
+        .help-card {
+            width: 260px;
+            height: 84px;
+            background: #FFFFFF;
+            border-radius: 4px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15);
+            transition: transform .15s ease;
+            /* transition 放在本體比較順 */
+        }
+
+        /* 讓 card-body 完整吃滿 84px，內容精準置中 */
+        .help-card-body {
+            height: 84px;
+            padding: 0;
+            /* 移除 card-body 預設 padding */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .help-icon {
+            font-size: 24px;
+            /* 依你設計稿 24px 的感覺 */
+            color: #0dcaf0;
+            /* 你原本用 text-info 也可以，這裡直接寫死更穩 */
+        }
+
+        .help-card:hover {
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+            <a class="navbar-brand text1" href="#">
+                <i class="bi bi-record-fill text-info"></i>小懶蟲
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link  noto-sans-regular" aria-current="page" href="#">首頁</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link noto-sans-regular" href="#">服務介紹</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link noto-sans-regular" href="#">方案費用</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-info noto-sans-regular" href="#">常見問題</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="btn btn-info text2" href="#">方案費用</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="py-6" style="background-image: url(./img/bg_paper.png); height:180px;">
+        <div class="text-center">
+            <p class="text3">HAPPY LIFE</p>
+            <h1 class="text4">開始當個小懶蟲</h1>
+        </div>
+    </section>
+
+    <section class="py-6 container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 p-0">
+                <form action="" class="p-lg-5 p-3 shadow-lg">
+                    <h3 class="deco-line mb-3 text7">選擇方案</h3>
+                    <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-info w-100 btn-lg py-3 text4">
+                                小小搭懶蟲<br class="d-none d-lg-block">
+                                NT 298/月
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-info w-100 btn-lg py-3 text4">
+                                睡一整天囉<br class="d-none d-lg-block">
+                                NT 666/月
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-info w-100 btn-lg py-3 btn-special active text6 text-white">
+                                客製化方案<br class="d-none d-lg-block">
+                                客服詢價
+                            </button>
+                        </div>
+                    </div>
+                    <h3 class="deco-line mt-4 mt-lg-5 mb-3 text7">填寫資料</h3>
+
+                    <div class="row g-3">
+                        <!-- 名字 / 姓氏：手機單欄，md 以上雙欄 -->
+                        <div class="col-12 col-md-6">
+                            <label for="firstName" class="form-label text8 mb-1">名字</label>
+                            <input type="text" id="firstName" class="form-control" />
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label for="lastName" class="form-label text8 mb-1">姓氏</label>
+                            <input type="text" id="lastName" class="form-control" />
+                        </div>
+
+                        <!-- 下面全部單欄 -->
+                        <div class="col-12">
+                            <label for="phone" class="form-label text8 mb-1">手機號碼</label>
+                            <input type="tel" id="phone" class="form-control" />
+                        </div>
+
+                        <div class="col-12">
+                            <label for="email" class="form-label text8 mb-1">電子郵件</label>
+                            <input type="email" id="email" class="form-control" />
+                        </div>
+
+                        <div class="col-12">
+                            <label for="address" class="form-label text8 mb-1">住址</label>
+                            <input type="text" id="address" class="form-control" />
+                        </div>
+
+                        <div class="col-12">
+                            <label for="time" class="form-label text8 mb-1">方便聯繫時間</label>
+                            <select id="time" class="form-select">
+                                <option>13:00-17:00</option>
+                                <option>09:00-12:00</option>
+                                <option>18:00-21:00</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label text8 mb-1">加購服務</label>
+                            <div class="row g-3">
+                                <div class="col-6 col-md-auto">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="add1">
+                                        <label class="form-check-label text8" for="add1">每週一清掃家裡+100</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-md-auto">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="add2">
+                                        <label class="form-check-label text8" for="add2">按摩+50</label>
+                                    </div>
+                                </div>
+
+                                <!-- 手機：col-12 會獨佔一行；桌面：col-md-auto 會回到同一行 -->
+                                <div class="col-12 col-md-auto">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="add3">
+                                        <label class="form-check-label text8" for="add3">聽你說話+150</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label for="note" class="form-label text8 mb-1">備註說明</label>
+                            <textarea id="note" class="form-control" rows="4"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button class="btn btn-info w-100 text9 py-2" type="submit">選擇方案</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="py66 help-section">
+        <div class="container">
+            <h2 class="text-center mb-4 text5">需要其他協助嗎？</h2>
+
+            <div class="row justify-content-center g-4">
+                <div class="col-auto">
+                    <a href="#" class="help-card card border-0 text-decoration-none">
+                        <div class="card-body help-card-body">
+                            <i class="bi bi-telephone-fill help-icon"></i>
+                            <span class="text12">07-555-666</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-auto">
+                    <a href="#" class="help-card card border-0 text-decoration-none">
+                        <div class="card-body help-card-body">
+                            <i class="fa-brands fa-facebook-f help-icon"></i>
+                            <span class="text12">我就是個小懶蟲</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-auto">
+                    <a href="#" class="help-card card border-0 text-decoration-none">
+                        <div class="card-body help-card-body">
+                            <i class="bi bi-question-lg help-icon"></i>
+                            <span class="text12">常見問題</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-3" style="background: #6C757D;">
+        <p class="text-center text-white mb-0 text13">Copyright © 2021 小懶蟲.All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
